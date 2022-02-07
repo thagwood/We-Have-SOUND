@@ -1,0 +1,9 @@
+.texty {
+    font-weight: bolder;
+}
+
+body {
+    background-color: rgb(7, 43, 61);
+    background-image: url("nova.jpg");
+    image-orientation: 0deg;
+}

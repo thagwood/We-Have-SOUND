@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--Terry Assignment: We Have SOUND!-->
+
+<html>
+
+<head>
+    <!--links my javascript file to the html file-->
+    <script src="code.js"></script>
+    <!--This links my css file to this html-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!--This is where my title for the webpage goes-->
+    <title> 
+        Nova Robotics
+    </title>
+</head>
+
+<br>
+    <table class="tableTop">
+        <tr>
+            <!--defines a row in a table-->
+            <td>
+                <h1>
+                    Nova Robotics
+                </h1>
+            </td>
+        </tr>
+    </table>
+    <table id="data" border="2" width="80%"> <!--table-->
+        <col style="width: 50%;">
+        <col style="width: 50%;">
+        <thead>
+            <tr style="font-family: fantasy;"><!--table front-->
+                <th>Data type</th>
+                <th>Reading</th>
+            </tr>
+        </thead>
+        <tbody style="font-weight: bolder;">
+            <tr id="seconds"></tr>
+            <tr id="latitude"></tr>
+            <tr id="longitude"></tr>
+        </tbody>
+    </table>
+    </br>
+    <!--Adds start and stop button-->
+    <button onclick="start();" class="funWithButtons" id="startButton">Start</button>
+    <button class="funWithButtons" onclick="stop();" id="stopButton" disabled=true>Stop</button>
+    <br>
+    <br>
+    <!--Adds and lables sound buttons-->
+    <button class="soundButton" onclick="playStation();">Play Space Station Sounds</button>
+    <br>
+    <button class="soundButton" onclick="playOddity();">Play Space Oddity</button>
+    <br>
+    <button class="soundButton" onclick="playChief();">Play Hail to the Chief</button>
+    <br>
+    
+</body>
+
+</html>
